@@ -11,7 +11,6 @@ namespace tip1正确操作字符串
         static void Main(string[] args)
         {
             Console.WriteLine("hello world");
-            Console.ReadKey();
         }
     }
 }
