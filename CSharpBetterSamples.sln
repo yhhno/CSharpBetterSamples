@@ -11,9 +11,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part2架构篇", "part2架�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part3编码规范及习惯", "part3编码规范及习惯", "{EAB2903D-EB78-434D-8740-892633346F50}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "charp1基本语言要素", "charp1基本语言要素", "{8C7BE392-4894-487E-8DE5-E9395CC35904}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter1基本语言要素", "chapter1基本语言要素", "{8C7BE392-4894-487E-8DE5-E9395CC35904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip1正确操作字符串", "part1语言篇\charp1基本语言要素\tip1正确操作字符串\tip1正确操作字符串.csproj", "{280C4DAC-53EA-4EAD-80F3-574F8024E633}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter3 泛型委托事件", "chapter3 泛型委托事件", "{8525D0AF-18D7-4F92-8DBC-5451E4191A00}"
+	ProjectSection(SolutionItems) = preProject
+		part1语言篇\chapter3泛型委托事件\chapter3 readme.txt = part1语言篇\chapter3泛型委托事件\chapter3 readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip01正确操作字符串", "part1语言篇\chapter1基本语言要素\tip1正确操作字符串\tip01正确操作字符串.csproj", "{CE36C9BF-AEC9-4534-A349-05AE31D124FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip32总是优先考虑泛型", "part1语言篇\chapter3泛型委托事件\tip32总是优先考虑泛型\tip32总是优先考虑泛型.csproj", "{B667A96B-F08C-4A86-927B-C4E6196CB7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip33避免在泛型类型中声明静态成员", "part1语言篇\chapter3泛型委托事件\tip33避免在反省类型中声明静态成员\tip33避免在泛型类型中声明静态成员.csproj", "{886091F2-6B30-4ECD-9D02-A1FCE0BEDBA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip34 为泛型参数设定约束", "part1语言篇\chapter3泛型委托事件\tip34 为泛型参数设定约束\tip34 为泛型参数设定约束.csproj", "{8D1CC609-1923-46E4-86B6-265F9E7A2908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip35使用default为泛型类型变量指定初始值", "part1语言篇\chapter3泛型委托事件\tip35使用default为泛型类型变量指定初始值\tip35使用default为泛型类型变量指定初始值.csproj", "{D25513C9-4E33-43B1-946C-4D281C741083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip02使用默认转型方法", "part1语言篇\chapter1基本语言要素\tip2使用默认转型方法\tip02使用默认转型方法.csproj", "{E132388F-B0DC-48A0-8573-F85B2160EF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip15使用dynamic来简化反射实现", "part1语言篇\chapter1基本语言要素\tip15使用dynamic来简化反射实现\tip15使用dynamic来简化反射实现.csproj", "{F13DC632-03BD-40C0-A73E-E38614F344DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip09习惯重载运算符", "part1语言篇\chapter1基本语言要素\tip09习惯重载运算符\tip09习惯重载运算符.csproj", "{86137D8F-C6F5-4EC3-9378-9E80A2C2B72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip37使用lambda表达式代替方法和匿名方法", "part1语言篇\chapter3泛型委托事件\tip37s使用lambda表达式代替方法和匿名方法\tip37使用lambda表达式代替方法和匿名方法.csproj", "{2AF46274-630F-4958-B82D-6F191874DA8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip150使用匿名方法和Lambda表达式代替方法", "part3编码规范及习惯\chapter11代码整洁\使用匿名方法和Lambda表达式代替方法\tip150使用匿名方法和Lambda表达式代替方法.csproj", "{8210D691-8AF3-48F5-90DB-CC32A186B323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip93构造方法应初始化主要属性和字段", "part2架构篇\chapter7成员设计\tip93构造方法应初始化主要属性和字段\tip93构造方法应初始化主要属性和字段.csproj", "{AF44531F-D224-4E97-B8F6-113638F48558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter7", "chapter7", "{B6738C06-FEAD-4416-9BC6-18522D4D1C5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter11", "chapter11", "{6997F49C-B8AC-476F-B476-5800FB088FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip38小心闭包里陷阱", "part1语言篇\chapter3泛型委托事件\tip38小心闭包里陷阱\tip38小心闭包里陷阱.csproj", "{729C1BB1-C05D-4DEA-998D-807434F50298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip36使用FCL中的委托声明", "part1语言篇\chapter3泛型委托事件\tip36使用FCL中的委托声明\tip36使用FCL中的委托声明.csproj", "{68E9697F-7CB1-46D7-966A-ACA935C1795F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip39了解委托的实质", "part1语言篇\chapter3泛型委托事件\tip39了解委托的实质\tip39了解委托的实质.csproj", "{6B32E055-C760-4370-8DBD-FEA272CDBDDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter2集合和LINQ", "chapter2集合和LINQ", "{B5084250-AE8C-42B9-8459-7653568318EA}"
+	ProjectSection(SolutionItems) = preProject
+		chapter2.txt = chapter2.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tip16元素数量可变的情况下不应使用数组", "part1语言篇\chapter2集合和LINQ\tip16元素数量可变的情况下不应使用数组\tip16元素数量可变的情况下不应使用数组.csproj", "{1755812C-CB86-4F02-8D87-05ADA992017F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,16 +63,90 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{280C4DAC-53EA-4EAD-80F3-574F8024E633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{280C4DAC-53EA-4EAD-80F3-574F8024E633}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{280C4DAC-53EA-4EAD-80F3-574F8024E633}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{280C4DAC-53EA-4EAD-80F3-574F8024E633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE36C9BF-AEC9-4534-A349-05AE31D124FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE36C9BF-AEC9-4534-A349-05AE31D124FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE36C9BF-AEC9-4534-A349-05AE31D124FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE36C9BF-AEC9-4534-A349-05AE31D124FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B667A96B-F08C-4A86-927B-C4E6196CB7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B667A96B-F08C-4A86-927B-C4E6196CB7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B667A96B-F08C-4A86-927B-C4E6196CB7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B667A96B-F08C-4A86-927B-C4E6196CB7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886091F2-6B30-4ECD-9D02-A1FCE0BEDBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886091F2-6B30-4ECD-9D02-A1FCE0BEDBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886091F2-6B30-4ECD-9D02-A1FCE0BEDBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886091F2-6B30-4ECD-9D02-A1FCE0BEDBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1CC609-1923-46E4-86B6-265F9E7A2908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1CC609-1923-46E4-86B6-265F9E7A2908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1CC609-1923-46E4-86B6-265F9E7A2908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1CC609-1923-46E4-86B6-265F9E7A2908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25513C9-4E33-43B1-946C-4D281C741083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25513C9-4E33-43B1-946C-4D281C741083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25513C9-4E33-43B1-946C-4D281C741083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25513C9-4E33-43B1-946C-4D281C741083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E132388F-B0DC-48A0-8573-F85B2160EF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E132388F-B0DC-48A0-8573-F85B2160EF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E132388F-B0DC-48A0-8573-F85B2160EF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E132388F-B0DC-48A0-8573-F85B2160EF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13DC632-03BD-40C0-A73E-E38614F344DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13DC632-03BD-40C0-A73E-E38614F344DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13DC632-03BD-40C0-A73E-E38614F344DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13DC632-03BD-40C0-A73E-E38614F344DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86137D8F-C6F5-4EC3-9378-9E80A2C2B72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86137D8F-C6F5-4EC3-9378-9E80A2C2B72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86137D8F-C6F5-4EC3-9378-9E80A2C2B72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86137D8F-C6F5-4EC3-9378-9E80A2C2B72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF46274-630F-4958-B82D-6F191874DA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF46274-630F-4958-B82D-6F191874DA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF46274-630F-4958-B82D-6F191874DA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF46274-630F-4958-B82D-6F191874DA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8210D691-8AF3-48F5-90DB-CC32A186B323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8210D691-8AF3-48F5-90DB-CC32A186B323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8210D691-8AF3-48F5-90DB-CC32A186B323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8210D691-8AF3-48F5-90DB-CC32A186B323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF44531F-D224-4E97-B8F6-113638F48558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF44531F-D224-4E97-B8F6-113638F48558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF44531F-D224-4E97-B8F6-113638F48558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF44531F-D224-4E97-B8F6-113638F48558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729C1BB1-C05D-4DEA-998D-807434F50298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729C1BB1-C05D-4DEA-998D-807434F50298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729C1BB1-C05D-4DEA-998D-807434F50298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729C1BB1-C05D-4DEA-998D-807434F50298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E9697F-7CB1-46D7-966A-ACA935C1795F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E9697F-7CB1-46D7-966A-ACA935C1795F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E9697F-7CB1-46D7-966A-ACA935C1795F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E9697F-7CB1-46D7-966A-ACA935C1795F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B32E055-C760-4370-8DBD-FEA272CDBDDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B32E055-C760-4370-8DBD-FEA272CDBDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B32E055-C760-4370-8DBD-FEA272CDBDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B32E055-C760-4370-8DBD-FEA272CDBDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1755812C-CB86-4F02-8D87-05ADA992017F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1755812C-CB86-4F02-8D87-05ADA992017F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1755812C-CB86-4F02-8D87-05ADA992017F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1755812C-CB86-4F02-8D87-05ADA992017F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8C7BE392-4894-487E-8DE5-E9395CC35904} = {703B5064-A612-4593-ACE9-B831C5528291}
-		{280C4DAC-53EA-4EAD-80F3-574F8024E633} = {8C7BE392-4894-487E-8DE5-E9395CC35904}
+		{8525D0AF-18D7-4F92-8DBC-5451E4191A00} = {703B5064-A612-4593-ACE9-B831C5528291}
+		{CE36C9BF-AEC9-4534-A349-05AE31D124FD} = {8C7BE392-4894-487E-8DE5-E9395CC35904}
+		{B667A96B-F08C-4A86-927B-C4E6196CB7EC} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{886091F2-6B30-4ECD-9D02-A1FCE0BEDBA9} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{8D1CC609-1923-46E4-86B6-265F9E7A2908} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{D25513C9-4E33-43B1-946C-4D281C741083} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{E132388F-B0DC-48A0-8573-F85B2160EF16} = {8C7BE392-4894-487E-8DE5-E9395CC35904}
+		{F13DC632-03BD-40C0-A73E-E38614F344DA} = {8C7BE392-4894-487E-8DE5-E9395CC35904}
+		{86137D8F-C6F5-4EC3-9378-9E80A2C2B72C} = {8C7BE392-4894-487E-8DE5-E9395CC35904}
+		{2AF46274-630F-4958-B82D-6F191874DA8D} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{8210D691-8AF3-48F5-90DB-CC32A186B323} = {6997F49C-B8AC-476F-B476-5800FB088FD6}
+		{AF44531F-D224-4E97-B8F6-113638F48558} = {B6738C06-FEAD-4416-9BC6-18522D4D1C5A}
+		{B6738C06-FEAD-4416-9BC6-18522D4D1C5A} = {1BBF8039-BC05-4FCA-B315-6137438FF7A6}
+		{6997F49C-B8AC-476F-B476-5800FB088FD6} = {EAB2903D-EB78-434D-8740-892633346F50}
+		{729C1BB1-C05D-4DEA-998D-807434F50298} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{68E9697F-7CB1-46D7-966A-ACA935C1795F} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{6B32E055-C760-4370-8DBD-FEA272CDBDDF} = {8525D0AF-18D7-4F92-8DBC-5451E4191A00}
+		{B5084250-AE8C-42B9-8459-7653568318EA} = {703B5064-A612-4593-ACE9-B831C5528291}
+		{1755812C-CB86-4F02-8D87-05ADA992017F} = {B5084250-AE8C-42B9-8459-7653568318EA}
 	EndGlobalSection
 EndGlobal
